@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nostra</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="navbar-menu" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- side navbar  -->
+
+    <div class="side-navbar">
+        <p onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <ul>
+                <li class="side-navbar-link"><a href="index.html">Home</a></li>
+                <li class="side-navbar-link"><a href="collection.html">Collection</a></li>
+                <li class="side-navbar-link"><a href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- product -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products-box" id="product-box">
+            <div class="products">
+                <img src="whiteshirt.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="products">
+                <img src="blackshirt.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>black Shirt</p>
+            </div>
+
+            <div class="products">
+                <img src="blue jeans.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>blue pant</p>
+            </div>
+
+            <div class="products">
+                <img src="black jeans.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>black pant</p>
+            </div>
+
+            <div class="products">
+                <img src="nightDress.webp" style="width: 200px; height: 250px;">
+                <p>Night Dress</p>
+            </div>
+
+            <div class="products">
+                <img src="nightsuit.webp" alt="" style="width: 200px; height: 250px;">
+                <p>Night Dress</p>
+            </div>
+            <div class="products">
+                <img src="t-shirt.webp" alt=""style="width: 200px; height: 250px;">
+                <p>Tshirt</p>
+            </div>
+
+            <div class="products">
+                <img src="silksaree.jfif" alt="" style="width: 200px; height: 250px;">
+                <p>Silk Saree</p>
+            </div>
+
+            <div class="products">
+                <img src="cottonSaree.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>Cotton Saree</p>
+            </div>
+            <div class="products">
+                <img src="vesti.jfif" alt=""style="width: 200px; height: 250px;">
+                <p>Vesti/Dhosti</p>
+            </div>
+
+        </div>
+    </div>
+  
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box1">
+            <h2 class="heading-text">Nostra</h2>
+            <p>Lorem ipsu Reiciendis delectus repellendus a saepe tempora, voluptatem quod at quibusdam commodi nisi?</p>
+            <div class="footer-icon">
+                <i class="fa-brands fa-instagram" style="color:white"></i>
+                <i class="fa-brands fa-twitter" style="color:white"></i>
+                <i class="fa-brands fa-facebook" style="color:white"></i>
+
+            </div>
+            <p>@2024 Nostra.com</p>
+        </div>
+    </div>
+</div>
+
+    <script src="collection.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
